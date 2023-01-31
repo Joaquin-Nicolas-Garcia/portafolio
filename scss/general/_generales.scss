@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.gap{
+    gap: 120px;
+}
+
+.paddingTop{
+    padding-top: 12px;
+    
+}
+.paddingLeft{
+    padding-left: 60px;
+}
+
+ul{
+    & li{
+        color: black;
+        list-style: none;
+    }
+}
+
+.active{
+    color: $principal;
+}
